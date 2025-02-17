@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rectangle Area Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Rectangle Area Calculator</h1>
+        <form action="calculate_Area.php" method="post">
+            <label for="length">Length:</label>
+            <input type="number" name="length" id="length" required>
+            <br>
+            <label for="width">Width:</label>
+            <input type="number" name="width" id="width" required>
+            <br>
+           <button type="button" onclick="calculateArea()">Calculate Area</button>
+           <br>
+           <p id="result"></p>
+        </form>
+    </div>
+    <script src="calculate_Area.js"></script>
+</body>
+</html>
