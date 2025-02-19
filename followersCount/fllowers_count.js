@@ -14,6 +14,16 @@ function checkCountValue() {
     }
 }
 
+function decreaseCount() {
+    count--;//decrement count by 1
+    displayCount();//display the count
+}
+
+function resetCount() {
+    count = 0;//reset count to 0
+    displayCount();//display the count
+}
+
 function displayCount() {
     document.getElementById("countDisplay").innerHTML = count;//Display the count in the HTML
 }
