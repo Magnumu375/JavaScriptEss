@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Counter</title>
+    <link rel="stylesheet" href="followers_count.css">
+</head>
+<body>
+    <div class="profile">
+        <h1>Achille Mutombo</h1>
+        <img src="achille.jpg" alt="Achille Mutombo" class="profile-image">
+    </div>
+    <div class="counter">
+        <h1>Interactive Counter</h1>
+        <h2>Account Holder Name: Achille Mutombo</h2>
+        <p>followers: <span id="countDisplay">0</span></p>
+    </div>
+   
+    <hr>
+    <section>
+        <div class="follow">
+            <h1>Followers Count</h1>
+            <h2>Click one button to follow</h2>
+            <button onclick="increaseCount()">Follow</button>
+        </div>
+        <hr>
+        <div class="unfollow">
+            <h1>Unfollow Count</h1>
+            <h2>Click one button to unfollow</h2>
+            <button onclick="decreaseCount()">Unfollow</button>
+        </div>
+    </section>
+    
+   
+
+    <script src="fllowers_count.js"></script>
+</body>
+</html>
