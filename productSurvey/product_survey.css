@@ -1,0 +1,30 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: darkcyan;
+    margin: 20px;
+    padding: 0;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0 0 20px;
+    text-align: center;
+}
+
+#name { 
+    padding: 2px;
+    border-radius: 4px;
+}
+
+
+
+
+
+
+
+#userInfo {
+    display: none;
+}
